@@ -1,0 +1,9 @@
+{% extends 'flatpages/default.html' %}
+{% load cache %}
+
+{% block content %}
+<h1 class="text_center">{{ message }} <strong>{{ category }}</strong></h1>
+{% cache 60 button %}
+<button> <a href="{% url 'post_list' %}"> Перейти на главную страницу</a> </button>
+{% endcache %}
+{% endblock %}
