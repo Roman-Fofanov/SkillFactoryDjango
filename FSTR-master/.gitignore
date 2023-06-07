@@ -1,0 +1,7 @@
+.env
+venv
+.idea
+FSTR/FSTR/__pycache__/
+FSTR/pereval/__pycache__/
+FSTR/pereval/migrations/__pycache__/
+
